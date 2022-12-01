@@ -1,0 +1,112 @@
+
+*{box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+header {
+text-align: center;
+margin: auto;
+}
+
+button{
+margin: 6px;
+font-size: 13px;
+}
+
+main>div {padding: 10px;}
+
+main, div>a {color: white;}
+
+section>h2{
+color: white;
+text-align:center;
+}
+
+/* operazioni eseguibili da remoto  */
+section>input {
+margin-right: 40%;
+margin-left: 40%;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+/* caratteristiche dell'effetto hover sui link "a"  */
+a:hover{
+color: black;
+background-color: #08dc04;
+border-radius: 2px;
+padding-left, padding-right: 3px;
+}
+
+
+footer{
+text-align: right;
+font-size: 10px;
+font-weight: bold;
+vertical-align: bottom;
+margin-bottom: 1px;
+padding: 3px;
+}
+
+/* caratteristiche del rettangolo che è
+in rilievo rispetto all'immagine di background */
+.grey-block {
+  margin: auto;
+  width: 1000px;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+}
+
+.logo {
+width: 30%;
+}
+
+.title {
+color: #08dc04;
+font-size: 23px;
+font-weight: bold;
+}
+
+.operazioni {
+background-color:#08dc04;
+}
+
+/* immagine di background - home page */
+.bck-image-index {
+background-image: url(background.jpg);
+background-size: cover;
+}
+
+/* immagine di background - riddle page */
+.bck-image-riddle {
+background-image: url(riddle.jpg);
+background-size:cover;
+}
+
+/* indicatore livello batteria monopattino 1 */
+.battery-level-1{
+  background-color: violet;
+  margin: auto;
+  padding-left: 45px;
+  border-radius: 5px;
+}
+
+/* indicatore livello batteria monopattino 2 */
+.battery-level-2 {
+  background-color: green;
+  margin: auto;
+  padding-left: 350px;
+  border-radius: 5px;
+}
+
+/* indicatore livello batteria monopattino 3 */
+.battery-level-3 {
+  background-color: blue;
+  margin: auto;
+  padding-left: 240px;
+  border-radius: 5px;
+}
